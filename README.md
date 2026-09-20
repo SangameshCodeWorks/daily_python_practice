@@ -27,3 +27,5 @@
 
     -------------------------------------------------------------------------
     
+    day 08. ALLdatatypesPractice.py (20/09/2026)
+            > practiced all Data types and its Methods
