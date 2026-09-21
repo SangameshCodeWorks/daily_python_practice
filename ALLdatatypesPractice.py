@@ -160,8 +160,8 @@ st2 = "sanGamesh jaiNapur mail @123"
 st3 = "  sanGamesh jaiNapur mail @123  "
 
     #capitalize it make the first latter of the word is capital letter
-st1=st1.capitalize()
-print(st1)
+st11=st1.capitalize()
+print("str11 >>>>>>",st11)
 
     #title it makes the every word first latter in capital letter of the sentance
 st1=st1.title()
