@@ -76,4 +76,11 @@ sum = l[0] + l[-1]
 print(l)
 print(sum)
 
+s1 = "python"
+s2=s1.split()
+print(s2)
+
+s3 = list(s1)
+print(s3)
+
 
