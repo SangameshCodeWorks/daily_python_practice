@@ -1,3 +1,20 @@
+# ==============================================================================
+# Module: dictionary.py
+# Topic: IDLE Interactive Shell Session Log
+#
+# • What is it for:
+#   This file preserves the recorded output and debugging sessions from the Python
+#   IDLE Interactive Shell while testing set operations (set_methods.py) and
+#   dictionary operations (dictionaary.py).
+# • What it does:
+#   Logs standard output, RESTART events, tracebacks, and runtime evaluations of
+#   key-value manipulation and set methods.
+# • Where it is used:
+#   Referenced by developers to review console execution history, study runtime
+#   exceptions (such as KeyError and AttributeError), and inspect output step-by-step.
+# ==============================================================================
+
+r"""
 Python 3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)] on win32
 Type "help", "copyright", "credits" or "license()" for more information.
 >>> 
@@ -307,3 +324,4 @@ KeyError: 0
 {12: 144, 13: 169, 14: 196, 15: 200}
 {12: 144, 13: 169, 14: 196, 15: 200, 16: 1000}
 >>> 
+"""
