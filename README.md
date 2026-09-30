@@ -24,6 +24,8 @@ Welcome to my daily Python learning and practice journey! This repository docume
 | **Day 14** | 26/09/2026 | Character & Unicode Mapping (`ord` & `chr`) | `charactertoUnicode.py` |
 | **Day 15** | 27/09/2026 | Advanced `print()` Parameters (`sep`, `end`) | `print_function.py` |
 | **Day 16** | 28/09/2026 | Python Operators (Arithmetic, Relational, Logic, Assignment) | `arithmetic_operators.py`, `Comparison_operator.py`, `Logical_operators.py`, `Assignment_operator.py` |
+| **Day 17** | 29/09/2026 | Advanced Operators (Bitwise, Identity, Membership, Short-Circuit Logic) | `Bitwise_operator.py`, `Bitwise_operator2.py`, `Identity_operator.py`, `Membership_operator.py`, `Logical_operators2.py` |
+| **Day 18** | 30/09/2026 | Conditional Statements & Flow Control (`if`, `if-else`) | `Conditional_statement.py`, `if_else_condition.py` |
 
 ---
 
@@ -174,17 +176,52 @@ Welcome to my daily Python learning and practice journey! This repository docume
 
 ---
 
+### Day 17: Advanced Operators & Logic Deep Dive (29/09/2026)
+* > Bitwise Binary Operations: AND (`&`), OR (`|`), XOR (`^`) with Bitmasking (`Bitwise_operator.py`)
+* > Bitwise NOT Operator: One's Complement (`~n = -(n+1)`) & Two's Complement System (`Bitwise_operator2.py`)
+* > Bitwise Binary Shifts: Left Shift (`<<`) & Right Shift (`>>`) with Exponent Formulas (`Bitwise_operator2.py`)
+* > Object Identity Operators: `is` and `is not` (`Identity_operator.py`)
+* > Identity vs Equality: Memory Reference Address (`id()`) vs Value Equivalence (`==`) (`Identity_operator.py`)
+* > Membership Operators: `in` across Lists, Tuples, Sets, Strings, and Dictionaries (`Membership_operator.py`)
+* > Dictionary Membership Gotcha: Checking Keys vs `.values()` vs `.items()` (`Membership_operator.py`)
+* > Non-Boolean Short-Circuit Evaluation: Truthy & Falsy Operands with `and` & `or` (`Logical_operators2.py`)
+* > Default Fallback Idiom: Selecting First Truthy Value or Default (`Logical_operators2.py`)
+
+---
+
+### Day 18: Conditional Statements & Control Flow (30/09/2026)
+* > One-Way Decision Making: Simple `if` Statement & Indented Execution Blocks (`Conditional_statement.py`)
+* > Integrating Method Results into Conditions: `str.startswith()` (`Conditional_statement.py`)
+* > Two-Way Mutually Exclusive Branching: `if ... else` Structure (`if_else_condition.py`)
+* > Input & Data Validation with String Length Checks `len() > 2` (`if_else_condition.py`)
+
+---
+
+## 📋 Progress Tracking & Practice Roadmap
+
+For the complete daily tracker, upcoming curriculum milestones, and practicing checklist, see [TODO.md](file:///f:/CodePlayground/Python%20Workspace/TODO.md).
+
+---
+
 ## 🛠️ How to Run Any Practice Script
 
 Run any module directly using Python in your terminal:
 
 ```bash
-# Example 1: Run Operators practice
-python arithmetic_operators.py
+# Example 1: Run Bitwise Operators practice
+python Bitwise_operator.py
 
-# Example 2: Run String Methods practice
+# Example 2: Run Identity & Membership Operators practice
+python Identity_operator.py
+python Membership_operator.py
+
+# Example 3: Run Conditional Statements practice
+python Conditional_statement.py
+python if_else_condition.py
+
+# Example 4: Run String Methods practice
 python String_methods.py
 
-# Example 3: Run All Data Types Practice
+# Example 5: Run All Data Types Practice
 python ALLdatatypesPractice.py
 ```
