@@ -6,10 +6,10 @@ This document tracks the completed practice days, upcoming core Python learning 
 
 ## 📊 Quick Progress Summary
 
-- **Completed Days:** 18 / 18 Practiced Days
-- **Total Practiced Scripts:** 36 Python Modules
-- **Current Topic Milestone:** Control Flow & Conditional Statements (`if`, `if-else`)
-- **Next Topic Milestone:** Multi-Way Decision Branching (`if-elif-else`), Nested Conditions & Pattern Matching (`match-case`)
+- **Completed Days:** 19 / 19 Practiced Days
+- **Total Practiced Scripts:** 39 Python Modules
+- **Current Topic Milestone:** Multi-Way Decision Branching (`if-elif-else`), Nested Conditions (`nested_if`), Pattern Matching (`match-case`)
+- **Next Topic Milestone:** Iteration & Loops (`while` loops, `for` loops & `range()`)
 
 ---
 
@@ -86,14 +86,20 @@ This document tracks the completed practice days, upcoming core Python learning 
   - [Conditional_statement.py](file:///f:/CodePlayground/Python%20Workspace/Conditional_statement.py) — One-way `if` decision making & method conditions (`startswith`).
   - [if_else_condition.py](file:///f:/CodePlayground/Python%20Workspace/if_else_condition.py) — Two-way mutually exclusive branching (`if-else`) and length validation.
 
+- [x] **Day 19 (01/10/2026): Multi-Way Branching, Nested Conditions & Pattern Matching**
+  - [if_elif_else.py](file:///f:/CodePlayground/Python%20Workspace/if_elif_else.py) — Multi-way `if - elif - else` ladder, score range vs comparison boundary evaluation.
+  - [nested_if.py](file:///f:/CodePlayground/Python%20Workspace/nested_if.py) — Nested conditional statements, multi-stage voter eligibility check (citizenship and age).
+  - [Match_case.py](file:///f:/CodePlayground/Python%20Workspace/Match_case.py) — Python 3.10+ `match - case` structural pattern matching with wildcard `case _` fallback.
+
+
 ---
 
 ## 🔮 Upcoming Learning Modules (Curriculum Roadmap)
 
 ### Phase 1: Advanced Control Flow & Iteration
-- [ ] **Multi-Way Decision Making:** `if - elif - else` ladders, grade calculators, BMI calculators.
-- [ ] **Nested Conditional Statements:** Inner `if` blocks, account access validation, nested boundaries.
-- [ ] **Structural Pattern Matching:** Modern Python 3.10+ `match - case` statements.
+- [x] **Multi-Way Decision Making:** `if - elif - else` ladders, grade calculators, boundary testing.
+- [x] **Nested Conditional Statements:** Inner `if` blocks, multi-tier access validation, nested boundaries.
+- [x] **Structural Pattern Matching:** Modern Python 3.10+ `match - case` statements, wildcard fallback.
 - [ ] **While Loops:** Conditional looping, counter increments, infinite loops, and sentinel-controlled loops.
 - [ ] **For Loops & Ranges:** `for item in sequence`, `range(start, stop, step)`, reverse loops.
 - [ ] **Loop Control Statements:** `break` (early exit), `continue` (skip iteration), `pass` (placeholder), and `else` clause in loops.

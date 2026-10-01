@@ -26,6 +26,8 @@ Welcome to my daily Python learning and practice journey! This repository docume
 | **Day 16** | 28/09/2026 | Python Operators (Arithmetic, Relational, Logic, Assignment) | `arithmetic_operators.py`, `Comparison_operator.py`, `Logical_operators.py`, `Assignment_operator.py` |
 | **Day 17** | 29/09/2026 | Advanced Operators (Bitwise, Identity, Membership, Short-Circuit Logic) | `Bitwise_operator.py`, `Bitwise_operator2.py`, `Identity_operator.py`, `Membership_operator.py`, `Logical_operators2.py` |
 | **Day 18** | 30/09/2026 | Conditional Statements & Flow Control (`if`, `if-else`) | `Conditional_statement.py`, `if_else_condition.py` |
+| **Day 19** | 01/10/2026 | Multi-Way Decision, Nested Conditions & Pattern Matching (`match-case`) | `if_elif_else.py`, `nested_if.py`, `Match_case.py` |
+
 
 ---
 
@@ -197,6 +199,17 @@ Welcome to my daily Python learning and practice journey! This repository docume
 
 ---
 
+### Day 19: Multi-Way Branching, Nested Conditions & Pattern Matching (01/10/2026)
+* > Multi-Way Decision Making: `if - elif - else` Ladder for Tiered Grade Evaluation (`if_elif_else.py`)
+* > Boundary Conditions: Comparing `range()` Half-Open Membership vs Relational Operators (`if_elif_else.py`)
+* > Nested Conditional Statements: Hierarchical Outer & Inner `if` Decision Trees (`nested_if.py`)
+* > Multi-Stage Eligibility Validation: Voter Verification Flow (Citizenship & Age) (`nested_if.py`)
+* > Structural Pattern Matching: Modern Python 3.10+ `match - case` Syntax (`Match_case.py`)
+* > Default / Fallback Matching with the Wildcard `case _` Pattern (`Match_case.py`)
+
+
+---
+
 ## 📋 Progress Tracking & Practice Roadmap
 
 For the complete daily tracker, upcoming curriculum milestones, and practicing checklist, see [TODO.md](file:///f:/CodePlayground/Python%20Workspace/TODO.md).
@@ -219,9 +232,14 @@ python Membership_operator.py
 python Conditional_statement.py
 python if_else_condition.py
 
-# Example 4: Run String Methods practice
+# Example 4: Run Decision Branching & Pattern Matching practice
+python if_elif_else.py
+python nested_if.py
+python Match_case.py
+
+# Example 5: Run String Methods practice
 python String_methods.py
 
-# Example 5: Run All Data Types Practice
+# Example 6: Run All Data Types Practice
 python ALLdatatypesPractice.py
 ```
